@@ -1,2 +1,32 @@
 User-Agent: *
 Allow: /
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: GPTBot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: ClaudeBot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Twitterbot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Facebookbot
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://buildroulette.vercel.app/sitemap.xml
